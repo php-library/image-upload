@@ -1,0 +1,30 @@
+{
+  "name": "php-library/image-upload",
+  "description": "Full control management for image upload, tagging, caching.",
+  "homepage": "https://github.com/php-library/simple-cache.git",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ismail",
+      "homepage": "https://github.com/ismatkurt",
+      "email": "ismail.atkurt@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "php-library/simple-cache": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.3.*"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "autoload": {
+    "psr-4": {
+      "ImageUpload\\": "./src"
+    }
+  }
+}
